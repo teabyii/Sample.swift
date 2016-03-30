@@ -1,6 +1,6 @@
 language: objective-c
 osx_image: xcode7.2
 script:
-  - xctool test -project Sample.xcodeproj -scheme Sample -sdk iphonesimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
+  - xctool -project Sample.xcodeproj -scheme SampleTests build test -sdk iphonesimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
 after_success:
   - bash <(curl -s https://codecov.io/bash)
