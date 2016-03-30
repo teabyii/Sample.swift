@@ -1,10 +1,13 @@
 # Sample.swift
 
 [![Build status][ci-image]][ci-url]
+[![Coverage][codecov-image]][codecov-url]
 [![Carthage compatible][carthage-image]][carthage-url]
 
 [ci-image]: https://img.shields.io/travis/jsenjoy/Sample.swift/master.svg?style=flat-square
 [ci-url]: https://travis-ci.org/jsenjoy/Sample.swift
+[codecov-image]: https://img.shields.io/codecov/c/github/jsenjoy/Sample.swift/master.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/jsenjoy/Sample.swift
 [carthage-image]: https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat-square
 [carthage-url]: https://github.com/Carthage/Carthage
 
