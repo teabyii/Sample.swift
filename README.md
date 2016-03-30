@@ -3,9 +3,9 @@
 [![Build status][ci-image]][ci-url]
 [![Carthage compatible][carthage-image]][carthage-url]
 
-[ci-image]: https://travis-ci.org/jsenjoy/Sample.swift.svg?branch=master
+[ci-image]: https://img.shields.io/travis/jsenjoy/Sample.swift/master.svg?style=flat-square
 [ci-url]: https://travis-ci.org/jsenjoy/Sample.swift
-[carthage-image]: https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat
+[carthage-image]: https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat-square
 [carthage-url]: https://github.com/Carthage/Carthage
 
 A simple node-like file operation library with swift.
