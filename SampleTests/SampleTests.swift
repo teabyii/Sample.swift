@@ -19,7 +19,6 @@ class SampleTests: XCTestCase {
     do {
       let contents = try Sample.readdir(cwd)
       XCTAssertTrue(contents.contains("Library"))
-      XCTAssertTrue(contents.contains("Root"))
     } catch {}
   }
   
@@ -36,7 +35,7 @@ class SampleTests: XCTestCase {
   }
   
   func testExists() {
-    XCTAssertTrue(Sample.exists(cwd + "/Root"))
+    XCTAssertTrue(Sample.exists(cwd + "/Library"))
   }
   
   func testCreateFile() {

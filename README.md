@@ -1,6 +1,14 @@
 # Sample.swift
 
-A simple node-like file operation librar with swift.
+[![Build status][ci-image]][ci-url]
+[![Carthage compatible][carthage-image]][carthage-url]
+
+[ci-image]: https://travis-ci.org/jsenjoy/Sample.swift.svg?branch=master
+[ci-url]: https://travis-ci.org/jsenjoy/Sample.swift
+[carthage-image]: https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat
+[carthage-url]: https://github.com/Carthage/Carthage
+
+A simple node-like file operation library with swift.
 
 ## Requirements
 
@@ -32,20 +40,20 @@ do {
 
 ## APIs
 
-- access(path: String, mode: Int)
-- appendFile(filename: String, data: String)
-- chmod(path: String, mode: Int)
-- chmod(path: String, mode: String)
-- chown(path: String, uid: Int, gid: Int)
-- mkdir(path: String)
-- stat(path: String) -> [String: AnyObject]
-- exists(path: String) -> Bool
-- readdir(path: String) -> [String]
-- readFile(file: String) -> String
-- writeFile(file: String, data: String)
-- rename(path: String, another: String)
-- rmdir(path: String)
-- unlink(path: String)
+- `access(path: String, mode: Int)`
+- `appendFile(filename: String, data: String)`
+- `chmod(path: String, mode: Int)`
+- `chmod(path: String, mode: String)`
+- `chown(path: String, uid: Int, gid: Int)`
+- `mkdir(path: String)`
+- `stat(path: String) -> [String: AnyObject]`
+- `exists(path: String) -> Bool`
+- `readdir(path: String) -> [String]`
+- `readFile(file: String) -> String`
+- `writeFile(file: String, data: String)`
+- `rename(path: String, another: String)`
+- `rmdir(path: String)`
+- `unlink(path: String)`
 
 ## License
 
